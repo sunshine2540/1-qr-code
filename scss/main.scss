@@ -1,0 +1,57 @@
+@use "config" as *;
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: $background-main-color;
+}
+
+.card {
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  background: $background-card-color;
+  position: relative;
+  justify-self: center;
+  align-self: center;
+  box-shadow: 10px 10px 10px darken($color: $background-main-color, $amount: 5);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 10px;
+  position: inherit;
+  top: 12px;
+}
+
+h1 {
+  font-weight: $text1-weight;
+  font-size: $text1-size;
+  color: $text1-color;
+  margin: 25px;
+}
+
+p {
+  font-weight: $text2-weight;
+  font-size: $text2-size;
+  color: $text2-color;
+  margin: 25px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.attribution {
+  justify-self: center;
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+}
