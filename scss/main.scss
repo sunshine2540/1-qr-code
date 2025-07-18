@@ -1,0 +1,55 @@
+@use "config" as *;
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: $background-main-color;
+}
+
+footer {
+  justify-self: center;
+  position: absolute;
+  bottom: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    background-color: $background-card-color;
+    width: 200px;
+     justify-self: center;
+    align-self: center;
+  }
+
+  #{&}__qr {
+    img {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+h1 {
+  font-weight: $text1-weight;
+  font-size: $text1-size;
+  color: $text1-color;
+}
+
+p {
+  font-weight: $text2-weight;
+  font-size: $text2-size;
+  color: $text2-color;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution,
+a {
+  color: hsl(228, 45%, 44%);
+}
