@@ -1,9 +1,4 @@
 * {
-  padding: 0;
-  margin: 0;
-}
-
-* {
   font-family: "Outfit", sans-serif;
 }
 
@@ -11,46 +6,50 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-footer {
-  justify-self: center;
-  position: absolute;
-  bottom: 10px;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.flex__container {
-  background-color: hsl(0, 0%, 100%);
-  width: 200px;
+.card {
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  background: hsl(0, 0%, 100%);
+  position: relative;
   justify-self: center;
   align-self: center;
+  box-shadow: 10px 10px 10px #c4d5e9;
 }
-.flex .flex__qr img {
-  width: 100%;
-  padding: 10px;
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 10px;
+  position: inherit;
+  top: 12px;
 }
 
 h1 {
   font-weight: 700;
   font-size: 22px;
   color: hsl(218, 44%, 22%);
+  margin: 25px;
 }
 
 p {
   font-weight: 400;
   font-size: 15px;
   color: hsl(216, 15%, 48%);
+  margin: 25px;
+  text-align: center;
+  padding-bottom: 35px;
 }
 
 .attribution {
+  justify-self: center;
+  position: absolute;
+  bottom: 10px;
   font-size: 11px;
-  text-align: center;
 }
-
-.attribution,
-a {
+.attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
