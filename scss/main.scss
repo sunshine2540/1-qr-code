@@ -8,48 +8,50 @@ body {
   background-color: $background-main-color;
 }
 
-footer {
+.card {
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  background: $background-card-color;
+  position: relative;
   justify-self: center;
-  position: absolute;
-  bottom: 10px;
+  align-self: center;
+  box-shadow: 10px 10px 10px darken($color: $background-main-color, $amount: 5);
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &__container {
-    background-color: $background-card-color;
-    width: 200px;
-     justify-self: center;
-    align-self: center;
-  }
-
-  #{&}__qr {
-    img {
-      width: 100%;
-      padding: 10px;
-    }
-  }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 10px;
+  position: inherit;
+  top: 12px;
 }
 
 h1 {
   font-weight: $text1-weight;
   font-size: $text1-size;
   color: $text1-color;
+  margin: 25px;
 }
 
 p {
   font-weight: $text2-weight;
   font-size: $text2-size;
   color: $text2-color;
-}
-.attribution {
-  font-size: 11px;
+  margin: 25px;
   text-align: center;
+  padding-bottom: 35px;
 }
 
-.attribution,
-a {
-  color: hsl(228, 45%, 44%);
+.attribution {
+  justify-self: center;
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
 }
