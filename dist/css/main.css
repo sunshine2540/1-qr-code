@@ -3,28 +3,29 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
   border-radius: 20px;
   margin: 20px;
   background: hsl(0, 0%, 100%);
-  position: relative;
-  justify-self: center;
-  align-self: center;
-  box-shadow: 10px 10px 10px #c4d5e9;
+  box-shadow: 10px 10px 10px hsl(212, 45%, 84%);
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 90%;
   border-radius: 10px;
-  position: inherit;
-  top: 12px;
+  margin-top: 12px;
 }
 
 h1 {
@@ -38,9 +39,8 @@ p {
   font-weight: 400;
   font-size: 15px;
   color: hsl(216, 15%, 48%);
-  margin: 25px;
+  margin: 0 25px 35px 25px;
   text-align: center;
-  padding-bottom: 35px;
 }
 
 .attribution {

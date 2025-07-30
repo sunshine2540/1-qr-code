@@ -19,12 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot of the final website][/dist/screenshot_final_website.jpg]
+![Screenshot][screenshot_final.jpg]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sunshine2540/1-qr-code](https://github.com/sunshine2540/1-qr-code)
+- Live Site URL: [https://sunshine2540.github.io/1-qr-code/](https://sunshine2540.github.io/1-qr-code/)
 
 ## My process
 
@@ -32,6 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Flexbox layout
 - SASS/SCSS files
 - Live Sass Compiler/Live Server extensions (VSCode)
 
@@ -39,9 +40,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 As this was the first time I actually developed a website from scratch, this was a great opportunity to learn about helpful tools and resources for web development and playing around with everything I learned so far. Actually making the website was completely different from just learning html and css in theory.
-### Continued development
-
-In future projects I want to delve deeper in the possibilities of css, trying out things like CSS grid or flexbox for layout design. I tried to use them in this project, but couldn't make it work, so decided later on the simpler solution. It probably wasn't the right use case for them as it was only a single card instead of several.
 
 ### Useful resources
 

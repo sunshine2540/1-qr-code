@@ -5,28 +5,29 @@
 }
 
 body {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   background-color: $background-main-color;
+  min-height: 100vh;
 }
 
 .card {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
   width: 300px;
   border-radius: 20px;
   margin: 20px;
   background: $background-card-color;
-  position: relative;
-  justify-self: center;
-  align-self: center;
   box-shadow: 10px 10px 10px darken($color: $background-main-color, $amount: 5);
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 90%;
   border-radius: 10px;
-  position: inherit;
-  top: 12px;
+  margin-top: 12px;
 }
 
 h1 {
@@ -40,9 +41,8 @@ p {
   font-weight: $text2-weight;
   font-size: $text2-size;
   color: $text2-color;
-  margin: 25px;
+  margin: 0 25px 35px 25px;
   text-align: center;
-  padding-bottom: 35px;
 }
 
 .attribution {
